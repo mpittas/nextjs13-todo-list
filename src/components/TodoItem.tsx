@@ -9,7 +9,7 @@ export function TodoItem({ id, title, complete }: TodoItemPros) {
       <input id={id} type="checkbox" className="cursor-pointer peer" />
       <label
         htmlFor={id}
-        className="cursor-pointer peer-checked:line-through peer-checked:text-slate-400 px-1"
+        className="cursor-pointer peer-checked:line-through peer-checked:text-slate-400 pl-1"
       >
         {title}
       </label>
